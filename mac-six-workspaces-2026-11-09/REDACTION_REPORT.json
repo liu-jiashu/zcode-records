@@ -1,0 +1,1251 @@
+{
+  "generated_at": "2026-11-09T20:03:48+09:00",
+  "method": "recursive, pattern-based redaction of decoded JSON string values; source text is preserved except matching credential values",
+  "description": "No original credential values are included in this report; only locations and lengths.",
+  "counts_by_category": {
+    "SECRET_ASSIGNMENT": 162,
+    "PASSWORD": 12,
+    "ANTHROPIC_KEY": 2,
+    "JWT": 2,
+    "KNOWN_SECRET": 17,
+    "ENCRYPTED_CREDENTIAL": 11
+  },
+  "events": [
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo6lwfi_f802f492-0ef4-4643-a14f-cdfb3b3982c4].state.output",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo6lwfi_f802f492-0ef4-4643-a14f-cdfb3b3982c4].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8au97_6e63631c-95e8-4113-ba02-0a4f3031d52d].state.output",
+      "original_value_length": 19,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8au97_6e63631c-95e8-4113-ba02-0a4f3031d52d].state.output",
+      "original_value_length": 12,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8au97_6e63631c-95e8-4113-ba02-0a4f3031d52d].state.output",
+      "original_value_length": 12,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8go6g_aeab6b69-97ea-4b2c-a313-d89e0476e3c9].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8qsag_641f5ebb-4d08-4cdd-b788-d89917172896].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8rdaq_e542a4e7-6568-4638-93d4-7da2bd4f6ed2].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8rdat_82f830f0-a658-4986-abdf-a806b5907c47].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8t32e_11ddc5ea-2774-4c09-8a42-5d199f845b0a].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8t32j_774de64d-2348-4b99-bc0f-aa9fa3fb1bfa].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8tltm_c4f37c4d-e260-4532-8637-b3c0237b5558].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8uo0x_3566055f-338f-4197-96f7-ad1b8bfc7898].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8v5es_75d2c6d9-f3ad-4f54-8d7f-fe9d01e45368].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muo8v5ew_c9d9bb28-30f8-4c3a-939f-24c22b150bbb].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoaek43_371d3e42-a18a-435e-962d-595100e48d7f].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoaek47_4e9731ee-2686-4c31-8781-630599abc331].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoaumdh_a6f70f9b-94a6-4578-9e1b-78a5a9d9612d].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoaxnt9_702f73de-15d6-4d12-a1cf-7bb83a4f5b8b].state.input.content",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoaxnt9_702f73de-15d6-4d12-a1cf-7bb83a4f5b8b].state.metadata.readFileState.content",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoaypum_3cda3c53-d703-476e-a670-db7390915080].state.metadata.readFileState.content",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoazuo2_901125e7-7fd6-4d7b-9ddf-663484b88ba8].state.metadata.readFileState.content",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoazuo6_36c79a94-eb5b-46c5-9681-413087909b4d].state.metadata.readFileState.content",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muob3p94_da593932-79f4-45df-81a1-025bed3df8cb].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muob61eq_6587e74d-e042-43a8-b598-72760611ee59].state.metadata.readFileState.content",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muob61et_6fca6bce-8960-4059-afe9-113f747171d3].state.metadata.readFileState.content",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muobnrp1_15000ac1-c8dc-46b2-a416-3aa7b7d03441].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoe5wyh_8af5a0a8-6910-44cd-9e43-09f5a347d215].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoe5wyh_8af5a0a8-6910-44cd-9e43-09f5a347d215].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muoe9ubw_bc662fb0-5c02-4697-afb5-c9c2e3528db7].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muohpoou_3a68c110-c5ee-4b54-b8bd-ad627621899e].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muohpoou_3a68c110-c5ee-4b54-b8bd-ad627621899e].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_muohvx9j_ad042a5c-e718-48aa-8d3f-e9caf97e7f09].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mupb4lf2_e2b62a6a-44ad-40a4-b8bb-ab62ae988b9a].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mupb4lf6_0186afc6-b392-443c-abe9-0c90cf0ed44c].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mupbgk1i_4783624b-b188-4a8e-aa15-f216353f21e6].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mupqyhm8_869b575c-dbed-442a-9010-321f97f18791].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mupw37e2_51e58c97-f448-4013-a40b-b17d4ffba325].state.input.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mupw37e2_51e58c97-f448-4013-a40b-b17d4ffba325].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mupwa45f_9358597f-511c-4dde-a5e8-7c711e7d9f99].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "session[sess_45d94fb9-7ee2-4243-b2bd-a5d3c6aa28ca].task.searchable_text",
+      "original_value_length": 24,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "session[sess_45d94fb9-7ee2-4243-b2bd-a5d3c6aa28ca].task.searchable_text",
+      "original_value_length": 24,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv1dd4hs_981344db-8eca-4c06-9683-cfe483f5ef20].text",
+      "original_value_length": 6,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "ANTHROPIC_KEY",
+      "field_path": "part[part_mv1dk23f_fbf217d4-a58f-4e92-87cd-c9c70202dd5e].state.input.command",
+      "original_value_length": 25,
+      "marker": "[REDACTED:ANTHROPIC_KEY]"
+    },
+    {
+      "category": "JWT",
+      "field_path": "part[part_mv1dk23f_fbf217d4-a58f-4e92-87cd-c9c70202dd5e].state.input.command",
+      "original_value_length": 79,
+      "marker": "[REDACTED:JWT]"
+    },
+    {
+      "category": "ANTHROPIC_KEY",
+      "field_path": "part[part_mv1dk80s_e7200588-d215-481b-8e17-1fedd7a36ebb].state.input.command",
+      "original_value_length": 25,
+      "marker": "[REDACTED:ANTHROPIC_KEY]"
+    },
+    {
+      "category": "JWT",
+      "field_path": "part[part_mv1dk80s_e7200588-d215-481b-8e17-1fedd7a36ebb].state.input.command",
+      "original_value_length": 79,
+      "marker": "[REDACTED:JWT]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv2k123u_7d434bbf-65eb-4f0b-a8fe-f75b84f5fc73].state.output",
+      "original_value_length": 24,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv2k22u5_03f7b28d-1623-4d58-b367-71516aa47b3f].text",
+      "original_value_length": 25,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv2k22u8_acf21750-e051-452b-9122-60e87b16e1d0].state.input.new_string",
+      "original_value_length": 24,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv2k22u8_acf21750-e051-452b-9122-60e87b16e1d0].state.metadata.display.structuredPatch[0].lines[6]",
+      "original_value_length": 24,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv2k22u8_acf21750-e051-452b-9122-60e87b16e1d0].state.metadata.readFileState.content",
+      "original_value_length": 24,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv2keodp_7ef7782a-b84c-4edb-930e-faf8a2108e26].text",
+      "original_value_length": 24,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv2keodp_dffcf6cb-25c5-45ce-bc98-34c48fe15b98].text",
+      "original_value_length": 24,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv2ldobk_e5aeda1d-c0e8-497b-a904-9d07e41b5cbb].text",
+      "original_value_length": 24,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv2ldrts_857db2de-22d2-472c-ab9c-62cca3b450fd].state.input.command",
+      "original_value_length": 24,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv2lec5d_ba872448-7b22-46ef-8243-6a113a796a42].text",
+      "original_value_length": 24,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv2lelhl_22607777-547e-4c7b-953d-c2dde36b5a5e].text",
+      "original_value_length": 24,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv5lvj58_eb0d1364-ce0c-4b88-b9be-f8029017ec47].state.input.command",
+      "original_value_length": 24,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv5lvnaw_e620bd01-b76e-4db1-84e7-fb91dde13515].state.input.command",
+      "original_value_length": 24,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv47mupu_6be9edb1-6792-49fa-9f7d-01cff811ed0d].state.output",
+      "original_value_length": 60,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv47mupu_6be9edb1-6792-49fa-9f7d-01cff811ed0d].state.output",
+      "original_value_length": 58,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv4cly9s_55fc6bf9-27d3-417e-a8fe-f53d70351fc7].text",
+      "original_value_length": 30,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv4cmy56_c0179762-acf1-4c9a-add6-9af7d16819ee].text",
+      "original_value_length": 25,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv4d6rm2_b9fa7e74-1889-4d09-877e-7cf2741c0a85].state.output",
+      "original_value_length": 49,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv4dk4lj_45714499-3b98-4a10-9278-e5bf826d87b3].state.input.content",
+      "original_value_length": 12,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv4dk4lj_45714499-3b98-4a10-9278-e5bf826d87b3].state.metadata.readFileState.content",
+      "original_value_length": 12,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv4dq8pb_7910f481-17b8-4e2b-bf83-eceb61d05c74].state.metadata.readFileState.content",
+      "original_value_length": 12,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv4dwp3i_144f86fc-864a-496e-ba5f-de4ff8a3182f].state.metadata.readFileState.content",
+      "original_value_length": 12,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv4dwsal_2e7213dc-d17e-4f88-be8b-56043283679d].state.metadata.readFileState.content",
+      "original_value_length": 12,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv4dwv6z_410a39b6-b71d-47e8-a9b3-6d9271f35848].state.metadata.readFileState.content",
+      "original_value_length": 12,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv4ea5nm_ab3e8df6-9b27-4243-9469-4dfefa55e46e].state.input.new_string",
+      "original_value_length": 25,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv4ea5nm_ab3e8df6-9b27-4243-9469-4dfefa55e46e].state.metadata.display.structuredPatch[0].lines[4]",
+      "original_value_length": 25,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv4ea5nm_ab3e8df6-9b27-4243-9469-4dfefa55e46e].state.metadata.readFileState.content",
+      "original_value_length": 25,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv4gx4gc_ea21c793-7758-45e2-b13f-449d4fe8e8a0].state.metadata.readFileState.content",
+      "original_value_length": 12,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv4hdt89_aec70f48-ff36-4dcd-800d-a7115946efb0].state.input.new_string",
+      "original_value_length": 16,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv4hdt89_aec70f48-ff36-4dcd-800d-a7115946efb0].state.input.old_string",
+      "original_value_length": 25,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv4hdt89_aec70f48-ff36-4dcd-800d-a7115946efb0].state.metadata.display.structuredPatch[0].lines[3]",
+      "original_value_length": 25,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv4hdt89_aec70f48-ff36-4dcd-800d-a7115946efb0].state.metadata.display.structuredPatch[0].lines[4]",
+      "original_value_length": 16,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "ENCRYPTED_CREDENTIAL",
+      "field_path": "part[part_mv4hdt89_aec70f48-ff36-4dcd-800d-a7115946efb0].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:ENCRYPTED_CREDENTIAL]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3c9opp_b6bd5467-3415-49ab-a16d-1e297132286e].state.output",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3c9opp_b6bd5467-3415-49ab-a16d-1e297132286e].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3d75j4_35e17b62-e159-45b1-b41b-1e7c3d06707a].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3d75j4_35e17b62-e159-45b1-b41b-1e7c3d06707a].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3d7ntf_3a1f2291-0a5f-4f48-852b-a8025e1a5c8a].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3d96uq_245c969e-116c-44c8-98d8-820f0a32f064].state.input.command",
+      "original_value_length": 32,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3xo6w9_8222dddc-bf32-4ef3-a76c-fc83439fd8b3].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3xp7cj_82491204-4c14-49e0-a4f9-9e7acc93472b].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3xp7cj_82491204-4c14-49e0-a4f9-9e7acc93472b].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3xq7qp_27693bda-d9fc-408f-9f3d-b10ffd93e62d].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3xqsui_d8b801f6-f94e-4212-9d3d-8d69199c2bea].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv3xrabk_7fa3758b-0beb-49de-9fc8-aaacc6312b25].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02i_850bf65e-8cca-4485-a2a8-4fd24b958c01].state.output",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02i_850bf65e-8cca-4485-a2a8-4fd24b958c01].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_4227661a-06aa-4b39-9b7b-b92d17a8c6d6].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_4227661a-06aa-4b39-9b7b-b92d17a8c6d6].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_f91907a9-69af-4f5b-b3fc-08829d8a7153].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_6df55e16-d7b7-46bc-a86f-cd71679ccde0].state.input.command",
+      "original_value_length": 32,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_f256f929-8766-4024-aec6-6ce3b34555b6].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_b99cdb9b-8e8e-422b-b819-1727bee28c8c].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_b99cdb9b-8e8e-422b-b819-1727bee28c8c].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_a34ab2a8-f37c-4480-8add-d4592ae3b5f8].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_2bd3ac94-4f9a-4cb5-910b-b39dba2fe62c].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv40a02j_136ef690-a281-4ca6-9b84-6803d4599355].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv427bnc_88bd18f5-816f-4c75-8c52-f3d1cd3c3a7e].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv427bnd_e8b9a772-148a-4c58-a9dd-138ddd9f68a2].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv428ctw_f74ae44d-ffa5-4ed4-b9b9-c4178a9ee787].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mv428geb_8be3900a-577f-4153-bbb7-a23e21867d05].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "session[sess_d72188cc-2259-4ee5-8e7f-e09b9f57ff5c].task.searchable_text",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "message[msg_mv6zmx7l_34a04694-7b81-4fa6-aa65-4ab3849375a9].metadata.inputIntent.text",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "message[msg_mv6zmx7l_34a04694-7b81-4fa6-aa65-4ab3849375a9].metadata.conversationInputIntent.text",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv6zmx7n_fe729c26-16f3-4ce1-a272-47bda5256b5d].text",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv6znxx8_549f2006-d088-4b8d-b732-b4a61005d4cd].text",
+      "original_value_length": 12,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "PASSWORD",
+      "field_path": "part[part_mv6znxx8_549f2006-d088-4b8d-b732-b4a61005d4cd].text",
+      "original_value_length": 12,
+      "marker": "[REDACTED:PASSWORD]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv6znxxd_8369132f-7882-4a4a-a16b-ac4decbc64dd].state.input.content",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv6znxxd_8369132f-7882-4a4a-a16b-ac4decbc64dd].state.metadata.readFileState.content",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv8adcex_dce78bff-6210-41c7-822d-0c93a0a6b090].state.input.old_string",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "part[part_mv8adcex_dce78bff-6210-41c7-822d-0c93a0a6b090].state.metadata.display.structuredPatch[0].lines[3]",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7w3qt4_f85ff728-f3a1-42ed-8108-5a42abdb8164].state.output",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7w3qt4_f85ff728-f3a1-42ed-8108-5a42abdb8164].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7w61tw_050aab59-b5aa-4bd1-b74b-f2ecd0215e3a].state.output",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7w61tw_050aab59-b5aa-4bd1-b74b-f2ecd0215e3a].state.output",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7w61tw_050aab59-b5aa-4bd1-b74b-f2ecd0215e3a].state.output",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7w61tw_050aab59-b5aa-4bd1-b74b-f2ecd0215e3a].state.output",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7w9bj8_27e2ae5b-65c7-4a20-8311-185fdccfd61d].state.input.content",
+      "original_value_length": 13,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7w9bj8_27e2ae5b-65c7-4a20-8311-185fdccfd61d].state.metadata.readFileState.content",
+      "original_value_length": 13,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wbd0j_074cd69e-81d1-4562-a665-a1a7397f0362].state.input.new_string",
+      "original_value_length": 13,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wbd0j_074cd69e-81d1-4562-a665-a1a7397f0362].state.input.old_string",
+      "original_value_length": 13,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wbd0j_074cd69e-81d1-4562-a665-a1a7397f0362].state.metadata.readFileState.content",
+      "original_value_length": 13,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wbolf_d3b96064-44ee-494c-99fa-f0357d09a527].state.metadata.readFileState.content",
+      "original_value_length": 13,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wdhje_e5c7dcc8-c1d7-4d28-b79f-f148a383e1d4].state.input.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wdhje_e5c7dcc8-c1d7-4d28-b79f-f148a383e1d4].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7we0gv_43863498-9298-45e9-848b-8feb94e0b8c4].state.output",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7we0gv_43863498-9298-45e9-848b-8feb94e0b8c4].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wg2tj_038b056c-f7e9-46b8-84c7-9eea20fd1fc7].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wg2tj_038b056c-f7e9-46b8-84c7-9eea20fd1fc7].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7whfxs_6cae7f5a-616f-4105-b3fc-4fe4b4e5d343].text",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7whfy0_f8f597d8-1e68-4f1b-9c1a-b9e85e7168e6].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7whfy0_f8f597d8-1e68-4f1b-9c1a-b9e85e7168e6].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wiam8_938e48dc-8894-4596-813d-b646e8e2f3a6].state.output",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wjfyd_2a2bc31b-2d37-4cf1-bfd3-25fabfb9f26f].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wjfyd_2a2bc31b-2d37-4cf1-bfd3-25fabfb9f26f].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wjwln_49183a68-db1e-4c47-a884-36fcaf28fb33].state.output",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wlcep_69b20d53-76de-46ed-994d-bfd6bbe9ee5d].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wlcep_69b20d53-76de-46ed-994d-bfd6bbe9ee5d].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wlwwi_c878a7f1-423a-474f-ba33-4825a503b9fb].state.output",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wmjcz_aecb367e-ddc0-4e11-9c08-c931c5b4997a].state.input.content",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wmjcz_aecb367e-ddc0-4e11-9c08-c931c5b4997a].state.metadata.readFileState.content",
+      "original_value_length": 20,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wn6qk_428b54e0-7b71-4d17-ad9a-1a560ae888e5].state.output",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wnyh0_d2c25578-ffaa-4a4c-94d1-eeb8447c510c].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wnyh0_d2c25578-ffaa-4a4c-94d1-eeb8447c510c].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7woeyb_d5f84b81-bc7f-4fe3-870e-ef7090abb771].state.output",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wparh_f8cd5de6-141c-43f5-9297-e56d5112c708].state.input.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wparh_f8cd5de6-141c-43f5-9297-e56d5112c708].state.metadata.readFileState.content",
+      "original_value_length": 16,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wxx4z_57fb0386-8205-4ae9-879d-cd97baf37f11].text",
+      "original_value_length": 9,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wxx4z_57fb0386-8205-4ae9-879d-cd97baf37f11].text",
+      "original_value_length": 9,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wy3yq_ada5bcb2-7d0e-4843-b39f-15755f7d8ee6].state.input.command",
+      "original_value_length": 8,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7wy3yq_ada5bcb2-7d0e-4843-b39f-15755f7d8ee6].state.input.command",
+      "original_value_length": 8,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw7x03a9_f3478cdf-29e9-4214-b48b-c3173112e392].state.output",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85893u_2cd4d2e1-8ecf-4be4-9ec0-0156b4f3ddb7].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw858elr_ced92111-444c-45bd-b56a-78763d4c5a27].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85cnzn_204c6230-2bb5-4136-9aec-f03486b0ae37].state.input.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85cnzn_204c6230-2bb5-4136-9aec-f03486b0ae37].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85eiqs_baf58c38-4962-468f-807d-3bbd0b39a5b8].state.input.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85eiqs_baf58c38-4962-468f-807d-3bbd0b39a5b8].state.input.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85eiqs_baf58c38-4962-468f-807d-3bbd0b39a5b8].state.metadata.display.structuredPatch[2].lines[4]",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85eiqs_baf58c38-4962-468f-807d-3bbd0b39a5b8].state.metadata.display.structuredPatch[2].lines[7]",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85eiqs_baf58c38-4962-468f-807d-3bbd0b39a5b8].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85eiqs_baf58c38-4962-468f-807d-3bbd0b39a5b8].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85fmsb_d33afbe6-ff12-4510-bcb1-5e22e0987e8a].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85fmsb_d33afbe6-ff12-4510-bcb1-5e22e0987e8a].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85gevo_62853a0b-de51-4624-8e4d-494a7efe32e4].state.input.new_string",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85gevo_62853a0b-de51-4624-8e4d-494a7efe32e4].state.input.old_string",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85gevo_62853a0b-de51-4624-8e4d-494a7efe32e4].state.metadata.display.structuredPatch[0].lines[9]",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85gevo_62853a0b-de51-4624-8e4d-494a7efe32e4].state.metadata.display.structuredPatch[2].lines[19]",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85gevo_62853a0b-de51-4624-8e4d-494a7efe32e4].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85gevo_62853a0b-de51-4624-8e4d-494a7efe32e4].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85h7me_e26441d6-04a7-48a6-a1f7-41f855bcfefa].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85h7me_e26441d6-04a7-48a6-a1f7-41f855bcfefa].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85iq0t_342c17c6-c366-4487-a56a-4217e41179cc].state.input.new_string",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85iq0t_342c17c6-c366-4487-a56a-4217e41179cc].state.input.old_string",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85itik_6d25bf37-d311-4d89-a653-2a2d3306c20f].state.output",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85ksoa_778095c7-3f94-45b5-8cbb-9411d4bd9493].state.output",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85l4fk_9c147488-4c88-455e-a5c9-c7e735a6018b].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85l4fk_9c147488-4c88-455e-a5c9-c7e735a6018b].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85lase_004e4393-a4dc-433c-9b23-2d2fb56063a0].state.input.new_string",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85lase_004e4393-a4dc-433c-9b23-2d2fb56063a0].state.input.old_string",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85lase_004e4393-a4dc-433c-9b23-2d2fb56063a0].state.metadata.display.structuredPatch[0].lines[3]",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85lase_004e4393-a4dc-433c-9b23-2d2fb56063a0].state.metadata.display.structuredPatch[0].lines[5]",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85lase_004e4393-a4dc-433c-9b23-2d2fb56063a0].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85lase_004e4393-a4dc-433c-9b23-2d2fb56063a0].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85lz9m_567b1c02-3a73-44cf-8c0b-b82f984cb83f].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85lz9m_567b1c02-3a73-44cf-8c0b-b82f984cb83f].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85m6qy_528a1efb-99f9-414d-af4b-eed0c3062f44].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85m6qy_528a1efb-99f9-414d-af4b-eed0c3062f44].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw85njpo_f4e22aa0-8383-4c1e-9941-14ac4aed3ae9].state.input.command",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw870tai_aa63afad-1cef-4e93-a381-3e76593ce620].state.metadata.readFileState.content",
+      "original_value_length": 17,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw871gpa_649b596e-112d-4c93-8d43-f272caa2f119].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw871gpa_649b596e-112d-4c93-8d43-f272caa2f119].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw871z4r_d26cb822-672e-4ecf-bfe6-c7531978e963].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw871z4r_d26cb822-672e-4ecf-bfe6-c7531978e963].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw872lu5_fc558c3a-de53-451a-912e-e56c6af7c162].state.metadata.readFileState.content",
+      "original_value_length": 18,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "SECRET_ASSIGNMENT",
+      "field_path": "part[part_mw872lu5_fc558c3a-de53-451a-912e-e56c6af7c162].state.metadata.readFileState.content",
+      "original_value_length": 11,
+      "marker": "[REDACTED:SECRET_ASSIGNMENT]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "session_input[queue_01a1366d-87ef-7b2d-8a5f-55b604e666c8].payload.text",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "session_input[queue_01a1366d-87ef-7b2d-8a5f-55b604e666c8].payload.intent.text",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    },
+    {
+      "category": "KNOWN_SECRET",
+      "field_path": "session_input[queue_01a1366d-87ef-7b2d-8a5f-55b604e666c8].payload.conversationInputIntent.text",
+      "original_value_length": 12,
+      "marker": "[REDACTED:KNOWN_SECRET]"
+    }
+  ]
+}

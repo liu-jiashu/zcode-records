@@ -1,0 +1,12 @@
+.work/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw ZCode data and credential material must stay local.
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+apikey.txt
+jwt.txt
+credentials.json
