@@ -1,0 +1,206 @@
+{
+  "schema": "zcode.redaction.v1",
+  "method": "Parsed every exported JSON/JSONL record, replaced exact locally stored credential values and credential-like substrings with explicit [[REDACTED:*]] markers. Non-secret text, IDs, timestamps, and ordering were left unchanged.",
+  "rules": {
+    "exact_local_credentials": "Values read in memory from local ZCode credentials and sensitive environment variables.",
+    "private_keys": "PEM/OpenSSH private key bodies replaced, BEGIN/END markers retained.",
+    "api_keys": "Provider-prefixed keys (sk-, AIza, AKIA/ASIA, hf_, npm_, pypi-, BigModel format).",
+    "tokens": "OAuth/JWT/GitHub/GitLab/Slack tokens and bearer/basic authorization values.",
+    "passwords": "Password/passwd/pwd fields, URL userinfo, CLI flags, query parameters, and labeled values.",
+    "cookies": "Cookie and Set-Cookie header values.",
+    "secret_fields": "Sensitive JSON field values identified by key name."
+  },
+  "totals": {
+    "substitution_events": 1621,
+    "bytes_before": 43620344,
+    "bytes_after": 43607689
+  },
+  "by_rule": {
+    "api_key": 45,
+    "basic_auth": 32,
+    "chinese_label": 28,
+    "env_assignment": 1356,
+    "jsonish_secret": 116,
+    "private_key_block": 39,
+    "private_key_header_only": 1,
+    "query_param": 4
+  },
+  "files": [
+    {
+      "path": "index.jsonl",
+      "bytes_before": 10946,
+      "bytes_after": 10946,
+      "sha256": "758945e75117bbf5ec18dff23ef58cceae6e2ffff4ad1360d2f36dd771b8522c",
+      "substitutions": 0,
+      "rules": {}
+    },
+    {
+      "path": "shop/_workspace.json",
+      "bytes_before": 8258,
+      "bytes_after": 8025,
+      "sha256": "72a1a6b37891972f38d44b43b50ceb9b3a1e31c0deafb0d2bc5130acd6dacff9",
+      "substitutions": 0,
+      "rules": {}
+    },
+    {
+      "path": "shop/sess_0d7ddffb-1717-40b0-9e71-25067d24ff54.jsonl",
+      "bytes_before": 46565,
+      "bytes_after": 46586,
+      "sha256": "8efa12dcc6d628bce1e7505caed214372901e9cb8e04b2f1680c54b12bfc94b0",
+      "substitutions": 3,
+      "rules": {
+        "chinese_label": 3
+      }
+    },
+    {
+      "path": "shop/sess_4745fcd1-aee9-4323-9cee-6a3679b8d619.jsonl",
+      "bytes_before": 3224420,
+      "bytes_after": 3225760,
+      "sha256": "1fbf31a80336a112893f95e9ef8d6f7aed0e8a465ed22e529695a958f06cc4a9",
+      "substitutions": 232,
+      "rules": {
+        "basic_auth": 10,
+        "chinese_label": 4,
+        "env_assignment": 157,
+        "jsonish_secret": 52,
+        "private_key_block": 7,
+        "query_param": 2
+      }
+    },
+    {
+      "path": "shop/sess_7ebfa7fc-d8b6-43f7-8985-e260138c4468.jsonl",
+      "bytes_before": 6614451,
+      "bytes_after": 6612237,
+      "sha256": "1763c1938daf73a30b231fa440f60a823b53e097c6b7b2bca158e34e10529bf9",
+      "substitutions": 459,
+      "rules": {
+        "basic_auth": 11,
+        "chinese_label": 8,
+        "env_assignment": 343,
+        "jsonish_secret": 64,
+        "private_key_block": 30,
+        "private_key_header_only": 1,
+        "query_param": 2
+      }
+    },
+    {
+      "path": "shop/sess_83e07c3d-a5e0-4674-b274-31ad202eeaa9.jsonl",
+      "bytes_before": 172221,
+      "bytes_after": 172221,
+      "sha256": "a6e75ab6fb7c5aae94481cb2f2f1824cbf75f300af4c8d35c8aeaf346c504e45",
+      "substitutions": 0,
+      "rules": {}
+    },
+    {
+      "path": "shop/sess_ae774eaf-2103-42ce-8736-5a7daf0d2043.jsonl",
+      "bytes_before": 3080960,
+      "bytes_after": 3081003,
+      "sha256": "e3b0ec8be7df5c6fd707d7f2bddd870186d0c26e91309cfe6c4c740af88b17f5",
+      "substitutions": 51,
+      "rules": {
+        "basic_auth": 1,
+        "chinese_label": 10,
+        "env_assignment": 38,
+        "private_key_block": 2
+      }
+    },
+    {
+      "path": "shop/sess_d25bdc34-35ce-4b6f-a357-47ca191be932.jsonl",
+      "bytes_before": 1334689,
+      "bytes_after": 1334829,
+      "sha256": "120d4393c05775a9302186080aa8dd7a2267d38f876f26b8232d0b79b421790f",
+      "substitutions": 22,
+      "rules": {
+        "api_key": 4,
+        "basic_auth": 1,
+        "env_assignment": 17
+      }
+    },
+    {
+      "path": "shop/sess_fea200b6-af3c-4c62-af62-4a8f54dd17e5.jsonl",
+      "bytes_before": 208468,
+      "bytes_after": 208468,
+      "sha256": "4589813939cde461c8f4b7676c6604a875203c6ecb704393981f19c32c1b1f0f",
+      "substitutions": 0,
+      "rules": {}
+    },
+    {
+      "path": "篡改/_workspace.json",
+      "bytes_before": 5677,
+      "bytes_after": 5533,
+      "sha256": "455492ed36ff230f06e97aa2e308637d5be5a950178601ae45dd4850e7c4bad0",
+      "substitutions": 0,
+      "rules": {}
+    },
+    {
+      "path": "篡改/sess_4423faa8-7bee-4c12-880b-2746504a0047.jsonl",
+      "bytes_before": 37084,
+      "bytes_after": 37105,
+      "sha256": "84cb81ec3bb1e3743422903ef962f33f4ade066db5a1fad42a7e028e5e471454",
+      "substitutions": 3,
+      "rules": {
+        "chinese_label": 3
+      }
+    },
+    {
+      "path": "篡改/sess_9050a992-d6b3-4f19-8999-d5164d85d64b.part-001-of-002.jsonl",
+      "bytes_before": 8000456,
+      "bytes_after": 7997153,
+      "sha256": "76421a0028186296f521101070f05ea2a3e974aa3cd98a356975270d2375ce6b",
+      "substitutions": 229,
+      "rules": {
+        "api_key": 4,
+        "basic_auth": 2,
+        "env_assignment": 223
+      }
+    },
+    {
+      "path": "篡改/sess_9050a992-d6b3-4f19-8999-d5164d85d64b.part-002-of-002.jsonl",
+      "bytes_before": 4071081,
+      "bytes_after": 4068544,
+      "sha256": "e0e6e02e9eae90067c0254598a4ac3b24b6f73dda8383f8bed1b42bac5ceee53",
+      "substitutions": 151,
+      "rules": {
+        "api_key": 13,
+        "basic_auth": 1,
+        "env_assignment": 137
+      }
+    },
+    {
+      "path": "篡改/sess_eb84cabe-45e7-43ba-be19-5c7dad447bb3.part-001-of-002.jsonl",
+      "bytes_before": 8016431,
+      "bytes_after": 8013128,
+      "sha256": "4f887028ffb8de5196584dff2d165677daa0b3105775fc967ac532d83c14c55c",
+      "substitutions": 229,
+      "rules": {
+        "api_key": 4,
+        "basic_auth": 2,
+        "env_assignment": 223
+      }
+    },
+    {
+      "path": "篡改/sess_eb84cabe-45e7-43ba-be19-5c7dad447bb3.part-002-of-002.jsonl",
+      "bytes_before": 4939900,
+      "bytes_after": 4936569,
+      "sha256": "804cbda5268c260ac05f6800dcaa5859671e8413bb249bfe5e45db0e0247422e",
+      "substitutions": 152,
+      "rules": {
+        "api_key": 4,
+        "basic_auth": 4,
+        "env_assignment": 144
+      }
+    },
+    {
+      "path": "篡改/sess_fd1d5846-6f1d-4fb0-8912-3903753b90b1.jsonl",
+      "bytes_before": 3848737,
+      "bytes_after": 3849582,
+      "sha256": "1dd28fd25ee07b3e8f5f00c7ec2c46a4c6e34e92badd16049b877359bb8e5b23",
+      "substitutions": 90,
+      "rules": {
+        "api_key": 16,
+        "env_assignment": 74
+      }
+    }
+  ],
+  "notice": "No credential values are included in this report."
+}

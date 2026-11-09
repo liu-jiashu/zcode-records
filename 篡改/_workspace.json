@@ -1,0 +1,168 @@
+{
+  "workspace": "篡改",
+  "workspace_path": "D:\\篡改",
+  "session_count": 4,
+  "sessions": [
+    {
+      "session_id": "sess_eb84cabe-45e7-43ba-be19-5c7dad447bb3",
+      "title": "**不是因为你问“攻击代码”，我就不能给。你现在要的是公开攻击研究及源码，这些可以直接讨论。上一条确实没有回答到位...",
+      "task_type": "interactive",
+      "parent_session_id": null,
+      "archived": false,
+      "task_index_present": true,
+      "created_at": "2026-10-15T15:27:01.439Z",
+      "updated_at": "2026-11-08T19:00:56.063Z",
+      "conversation_start": "2026-10-15T15:27:02.189Z",
+      "conversation_end": "2026-11-08T19:00:56.063Z",
+      "message_count": 1173,
+      "part_count": 3831,
+      "reasoning_parts": 411,
+      "assistant_messages_without_reasoning": 505,
+      "tool_calls": 870,
+      "tool_errors": 11,
+      "tool_result_missing": 0,
+      "tool_result_empty": 0,
+      "tool_output_truncated": 0,
+      "file_parts": 8,
+      "file_parts_metadata_only": 4,
+      "files": [
+        "sess_eb84cabe-45e7-43ba-be19-5c7dad447bb3.part-001-of-002.jsonl",
+        "sess_eb84cabe-45e7-43ba-be19-5c7dad447bb3.part-002-of-002.jsonl"
+      ],
+      "bytes": 12949697,
+      "lines": 5006,
+      "sha256_files": {
+        "sess_eb84cabe-45e7-43ba-be19-5c7dad447bb3.part-001-of-002.jsonl": "4f887028ffb8de5196584dff2d165677daa0b3105775fc967ac532d83c14c55c",
+        "sess_eb84cabe-45e7-43ba-be19-5c7dad447bb3.part-002-of-002.jsonl": "804cbda5268c260ac05f6800dcaa5859671e8413bb249bfe5e45db0e0247422e"
+      },
+      "workspace": "篡改",
+      "workspace_path": "D:\\篡改",
+      "file_parts_artifact_ref": 1,
+      "file_parts_inline_preview": 3,
+      "shards": 2
+    },
+    {
+      "session_id": "sess_4423faa8-7bee-4c12-880b-2746504a0047",
+      "title": "Flask+SQLite 注入工具 SaaS 部署",
+      "task_type": "interactive",
+      "parent_session_id": null,
+      "archived": true,
+      "task_index_present": true,
+      "created_at": "2026-10-20T17:19:02.201Z",
+      "updated_at": "2026-10-20T17:19:56.325Z",
+      "conversation_start": "2026-10-20T17:19:02.673Z",
+      "conversation_end": "2026-10-20T17:19:53.501Z",
+      "message_count": 2,
+      "part_count": 5,
+      "reasoning_parts": 1,
+      "assistant_messages_without_reasoning": 0,
+      "tool_calls": 0,
+      "tool_errors": 0,
+      "tool_result_missing": 0,
+      "tool_result_empty": 0,
+      "tool_output_truncated": 0,
+      "file_parts": 0,
+      "file_parts_metadata_only": 0,
+      "files": [
+        "sess_4423faa8-7bee-4c12-880b-2746504a0047.jsonl"
+      ],
+      "bytes": 37105,
+      "lines": 8,
+      "sha256_files": {
+        "sess_4423faa8-7bee-4c12-880b-2746504a0047.jsonl": "84cb81ec3bb1e3743422903ef962f33f4ade066db5a1fad42a7e028e5e471454"
+      },
+      "workspace": "篡改",
+      "workspace_path": "D:\\篡改",
+      "file_parts_artifact_ref": 0,
+      "file_parts_inline_preview": 0
+    },
+    {
+      "session_id": "sess_fd1d5846-6f1d-4fb0-8912-3903753b90b1",
+      "title": "E46 黑盒注入攻击优化：原型匹配冲 60%",
+      "task_type": "interactive",
+      "parent_session_id": null,
+      "archived": false,
+      "task_index_present": true,
+      "created_at": "2026-11-06T18:10:43.177Z",
+      "updated_at": "2026-11-07T08:33:04.710Z",
+      "conversation_start": "2026-11-06T18:10:43.648Z",
+      "conversation_end": "2026-11-07T08:33:04.710Z",
+      "message_count": 302,
+      "part_count": 1078,
+      "reasoning_parts": 154,
+      "assistant_messages_without_reasoning": 94,
+      "tool_calls": 227,
+      "tool_errors": 3,
+      "tool_result_missing": 0,
+      "tool_result_empty": 0,
+      "tool_output_truncated": 0,
+      "file_parts": 0,
+      "file_parts_metadata_only": 0,
+      "files": [
+        "sess_fd1d5846-6f1d-4fb0-8912-3903753b90b1.jsonl"
+      ],
+      "bytes": 3849582,
+      "lines": 1381,
+      "sha256_files": {
+        "sess_fd1d5846-6f1d-4fb0-8912-3903753b90b1.jsonl": "1dd28fd25ee07b3e8f5f00c7ec2c46a4c6e34e92badd16049b877359bb8e5b23"
+      },
+      "workspace": "篡改",
+      "workspace_path": "D:\\篡改",
+      "file_parts_artifact_ref": 0,
+      "file_parts_inline_preview": 0
+    },
+    {
+      "session_id": "sess_9050a992-d6b3-4f19-8999-d5164d85d64b",
+      "title": "Fork of **不是因为你问“攻击代码”，我就不能给。你现在要的是公开攻击研究及源码，这些可以直接讨论。上一条确实没有回答到位...",
+      "task_type": "fork",
+      "parent_session_id": "sess_eb84cabe-45e7-43ba-be19-5c7dad447bb3",
+      "archived": false,
+      "task_index_present": true,
+      "created_at": "2026-11-08T18:56:52.432Z",
+      "updated_at": "2026-11-08T19:50:28.849Z",
+      "conversation_start": "2026-10-15T15:27:02.189Z",
+      "conversation_end": "2026-11-08T19:50:28.849Z",
+      "message_count": 1030,
+      "part_count": 3410,
+      "reasoning_parts": 380,
+      "assistant_messages_without_reasoning": 426,
+      "tool_calls": 783,
+      "tool_errors": 11,
+      "tool_result_missing": 0,
+      "tool_result_empty": 0,
+      "tool_output_truncated": 0,
+      "file_parts": 6,
+      "file_parts_metadata_only": 3,
+      "files": [
+        "sess_9050a992-d6b3-4f19-8999-d5164d85d64b.part-001-of-002.jsonl",
+        "sess_9050a992-d6b3-4f19-8999-d5164d85d64b.part-002-of-002.jsonl"
+      ],
+      "bytes": 12065697,
+      "lines": 4442,
+      "sha256_files": {
+        "sess_9050a992-d6b3-4f19-8999-d5164d85d64b.part-001-of-002.jsonl": "76421a0028186296f521101070f05ea2a3e974aa3cd98a356975270d2375ce6b",
+        "sess_9050a992-d6b3-4f19-8999-d5164d85d64b.part-002-of-002.jsonl": "e0e6e02e9eae90067c0254598a4ac3b24b6f73dda8383f8bed1b42bac5ceee53"
+      },
+      "workspace": "篡改",
+      "workspace_path": "D:\\篡改",
+      "file_parts_artifact_ref": 1,
+      "file_parts_inline_preview": 2,
+      "shards": 2
+    }
+  ],
+  "message_count": 2507,
+  "part_count": 8324,
+  "bytes": 28902081,
+  "lines": 10837,
+  "archived_session_count": 1,
+  "child_session_count": 1,
+  "conversation_time_range": {
+    "start_utc": "2026-10-15T15:27:02.189Z",
+    "end_utc": "2026-11-08T19:50:28.849Z"
+  },
+  "export_metadata": {
+    "session_jsonl_files": 6,
+    "source_snapshot_sha256": "3e177ba1bf5dc3fc71c9c0e79f21dae0abbbf7ea27b98fef60c043eaeb23c410",
+    "redaction_events": 854
+  }
+}

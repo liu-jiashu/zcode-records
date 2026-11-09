@@ -1,0 +1,29 @@
+# Raw databases, snapshots, credentials, and unredacted working copies must stay local.
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+.env
+.env.*
+credentials.json
+**/credentials*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Working directories
+raw-export/
+zcode-records-work/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS/editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
